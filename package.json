@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstaver/React-Portfolio.git"
+  },
+  "author": "Kendra Staver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kstaver/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/kstaver/React-Portfolio#readme",
+  "dependencies": {
+    "package-lock.json": "^1.0.0"
+  }
+}
