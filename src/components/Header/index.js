@@ -15,13 +15,13 @@ class Header extends React.Component {
             </header>
 
         <div className="content">
-            <Routes>
-                <Route exact path="/" element={<Navigate to="/about" replace/>} />
-                <Route path="/about" element={About} />
-                <Route path="/portfolio" element={Portfolio} />
-                <Route path="/contact" element={Contact}/>
-                <Route path="/resume" element={Resume}/>
-            </Routes>
+        <Routes>
+            <Route exact path="/" element={<Navigate to="/about" replace/>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+        </Routes>
         </div>
     </div>
     );
