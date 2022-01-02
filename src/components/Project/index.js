@@ -9,11 +9,11 @@ function ProjectCards(props){
             </div>
             <div className="content">
                 <p className="card-title">{props.name}</p>
-                <p class="proj-icons-container">
-                    <a href={props.github}><img class="project-icon" src="" alt=""/></a>
-                    <a href={props.deploy}><img class="project-icon" src="" alt=""/></a>
+                <p className="proj-icons-container">
+                    <a href={props.github}><img className="project-icon" src="" alt=""/></a>
+                    <a href={props.deploy}><img className="project-icon" src="" alt=""/></a>
                 </p>
-                <p class="topics">
+                <p className="topics">
                     ({props.topics})
                 </p>
             </div>
